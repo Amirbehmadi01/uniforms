@@ -7,7 +7,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // ---- مسیر فایل‌ها ----
-const filteredPath = path.join(__dirname, "excel", "filteredData.xlsx");
+const filteredPath = path.join(__dirname, "excel", "FilteredData.xlsx");
 const bottlePath = path.join(__dirname, "excel", "bottle.xlsx");
 
 // ---- کالاهای مورد بررسی ----
