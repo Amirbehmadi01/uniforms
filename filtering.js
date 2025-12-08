@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 // مسیر اکسل اصلی
-const excelPath = "C:\\Users\\hse1\\Desktop\\vscode-projects\\cloutes\\excel\\Book1.xlsx";
+const excelPath = path.resolve("C:/Users/HP/Desktop/cloutesdec/excel/Book1.xlsx");
 
 // خواندن فایل اکسل
 let workbook;
